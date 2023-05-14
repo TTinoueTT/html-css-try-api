@@ -38,4 +38,4 @@ RUN apk update && \
 COPY . .
 
 # rails s を実行
-CMD ["rails", "server", "-b", "0.0.0.0"]
+# CMD ["rails", "server", "-b", "0.0.0.0"]
